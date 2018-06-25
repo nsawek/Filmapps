@@ -22,5 +22,12 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);}
         });
 
+        Button button2=findViewById(R.id.button2);
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick (View view){
+                Intent intent = new Intent(MainActivity.this,Films_main.class);
+                startActivity(intent);}
+        });
 
 }}
