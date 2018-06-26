@@ -1,25 +1,26 @@
 package com.example.snowa.filmapps.model;
 
-public class ListaFilmowfull{
-    private String title ;
+public class Film {
+
+    private String title;
     private String summary;
     private String rating;
-    private String image_url;
-    private String category;
-    private String language;
     private int year;
+    private String time;
+    private String language;
+    private String image_url;
 
-    public ListaFilmowfull() {
+    public Film() {
     }
 
-    public ListaFilmowfull(String title, String summary, String rating, String image_url, String category, String language, int year) {
+    public Film(String title, String summary, String rating, int year, String time, String language, String image_url) {
         this.title = title;
         this.summary = summary;
         this.rating = rating;
-        this.image_url = image_url;
-        this.category = category;
-        this.language = language;
         this.year = year;
+        this.time = time;
+        this.language = language;
+        this.image_url = image_url;
     }
 
     public String getTitle() {
@@ -34,20 +35,20 @@ public class ListaFilmowfull{
         return rating;
     }
 
-    public String getImage_url() {
-        return image_url;
+    public int getYear() {
+        return year;
     }
 
-    public String getCategory() {
-        return category;
+    public String getTime() {
+        return time;
     }
 
     public String getLanguage() {
         return language;
     }
 
-    public int getYear() {
-        return year;
+    public String getImage_url() {
+        return image_url;
     }
 
     public void setTitle(String title) {
@@ -62,19 +63,19 @@ public class ListaFilmowfull{
         this.rating = rating;
     }
 
-    public void setImage_url(String image_url) {
-        this.image_url = image_url;
+    public void setYear(int year) {
+        this.year = year;
     }
 
-    public void setCategory(String category) {
-        this.category = category;
+    public void setTime(String time) {
+        this.time = time;
     }
 
     public void setLanguage(String language) {
         this.language = language;
     }
 
-    public void setYear(int year) {
-        this.year = year;
+    public void setImage_url(String image_url) {
+        this.image_url = image_url;
     }
 }
