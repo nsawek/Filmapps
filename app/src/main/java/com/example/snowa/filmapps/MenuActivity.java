@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.snowa.filmapps.activities.MainActivity;
+import com.example.snowa.filmapps.activities.UlubioneActivity;
 
 public class MenuActivity extends AppCompatActivity {
 
@@ -28,6 +29,14 @@ public class MenuActivity extends AppCompatActivity {
             @Override
             public void onClick (View view){
                 Intent intent = new Intent(MenuActivity.this, MainActivity.class);
+                startActivity(intent);}
+        });
+
+        Button button3=findViewById(R.id.button3);
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick (View view){
+                Intent intent = new Intent(MenuActivity.this, UlubioneActivity.class);
                 startActivity(intent);}
         });
     }
