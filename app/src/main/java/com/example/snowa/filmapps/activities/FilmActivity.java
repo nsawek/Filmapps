@@ -1,12 +1,15 @@
 package com.example.snowa.filmapps.activities;
+import android.os.Bundle;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.widget.ImageView;
 import android.widget.TextView;
+
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
-import com.example.snowa.filmapps.R ;
+import com.example.snowa.filmapps.R;
 
 public class FilmActivity extends AppCompatActivity {
     @Override
@@ -48,5 +51,15 @@ public class FilmActivity extends AppCompatActivity {
         RequestOptions requestOptions = new RequestOptions().centerCrop().placeholder(R.drawable.loading_shape).error(R.drawable.loading_shape);
         Glide.with(this).load(image_url).apply(requestOptions).into(img);
 
+
+
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu){
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.ulubione_menu, menu);
+
+        return true;
     }
 }

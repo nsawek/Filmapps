@@ -1,9 +1,12 @@
 package com.example.snowa.filmapps.activities;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.Menu;
+import android.view.MenuInflater;
+
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
@@ -12,9 +15,11 @@ import com.android.volley.toolbox.Volley;
 import com.example.snowa.filmapps.R;
 import com.example.snowa.filmapps.adapters.RecyclerViewAdapter;
 import com.example.snowa.filmapps.model.Film;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -80,4 +85,6 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setAdapter(myadapter);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
+
+
 }
