@@ -19,12 +19,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activities.FilmApplication"/>
+        <activity android:name=".activities.FilmApplication" />
         <activity android:name=".activities.MainActivity" />
         <activity android:name=".activities.FilmActivity" />
         <activity
-            android:name=".activities.UlubioneActivity"
-            android:label="@string/app_name" />
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"></activity>
     </application>
 
 </manifest>
