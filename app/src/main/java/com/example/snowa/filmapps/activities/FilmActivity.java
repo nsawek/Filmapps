@@ -14,9 +14,6 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
 import com.example.snowa.filmapps.R;
 
-import java.util.Date;
-
-import io.realm.Realm;
 
 public class FilmActivity extends AppCompatActivity {
     @Override

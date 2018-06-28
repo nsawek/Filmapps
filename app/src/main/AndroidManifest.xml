@@ -19,12 +19,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activities.FilmApplication" />
         <activity android:name=".activities.MainActivity" />
         <activity android:name=".activities.FilmActivity" />
         <activity
             android:name=".SettingsActivity"
-            android:label="@string/title_activity_settings"></activity>
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".MenuActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.snowa.filmapps.MenuActivity" />
+        </activity>
+        <activity android:name=".RuleActivity"></activity>
     </application>
 
 </manifest>

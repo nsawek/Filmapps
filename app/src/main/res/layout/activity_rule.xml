@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RuleActivity">
+
+    <TextView
+        android:text="REGULAMIN"
+        android:layout_width= "match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+    </TextView>
+
+   <TextView
+       android:text="1. Administrator ma zawsze racje."
+       android:layout_width="match_parent"
+       android:layout_height="25dp"
+       android:layout_marginTop="41dp"
+       android:layout_marginLeft="16dp"
+       android:layout_marginRight="16dp">
+   </TextView>
+
+    <TextView
+        android:text="2. Kiedy administrator nie ma racji patrz punkt 1."
+        android:layout_width= "match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+    </TextView>
+
+    <TextView
+        android:text="3. Użytkownicy są zobowiązani w szczególności do korzystania z Aplikacji i Urządzenia w sposób niezakłócający jej funkcjonowania."
+        android:layout_width= "match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="91dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+    </TextView>
+
+    <TextView
+        android:text="4. Użytkownicy są zobowiązani niezwłocznie powiadomić Operatora o każdym przypadku naruszenia ich praw w związku z korzystaniem z Aplikacji."
+        android:layout_width= "match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="151dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+    </TextView>
+
+    <TextView
+        android:text="5. Operator zastrzega sobie prawo zawieszenia, w dowolnym czasie i z dowolnych przyczyn działalności Aplikacji, a także prawo zmiany, wycofania lub dodania nowych usług świadczonych za jej pośrednictwem."
+        android:layout_width= "match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="211dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+    </TextView>
+
+
+</RelativeLayout>

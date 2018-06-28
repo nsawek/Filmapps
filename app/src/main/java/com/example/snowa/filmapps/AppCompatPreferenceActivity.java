@@ -109,4 +109,8 @@ public abstract class AppCompatPreferenceActivity extends PreferenceActivity {
         }
         return mDelegate;
     }
+
+    public abstract boolean onSupportNavigateUp();
+
+    protected abstract void setupActionBar();
 }
