@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <TextView
+        android:text="FILMAPPS"
+        android:layout_width= "match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginRight="16dp"
+        android:textSize="40dp">
+    </TextView>
+
+    <TextView
+        android:text="Filmapps jest serwisem pozwalającym na wyszukiwanie filmów krajowych i zagranicznych z największych platform. Poza przeszukiwaniem listy oraz poglądem szczegółów filmu, mamy możliwość wyszukiwania interesującego nas filmu po jego tytule."
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textSize="20dp"
+        android:textAlignment="center">
+    </TextView>
+
+    <TextView
+        android:text="wersja: BETA 1.0"
+        android:layout_width= "match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textSize="20dp">
+    </TextView>
+
+    <TextView
+        android:text="Autorzy aplikacji: Kinga Pszeniczna, Sławomir Nowak, Arkadiusz Kościk"
+        android:layout_width= "match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textSize="20dp">
+    </TextView>
+
+
+
+</RelativeLayout>
