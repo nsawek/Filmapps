@@ -39,6 +39,14 @@ public class MenuActivity extends AppCompatActivity {
                 startActivity(intent);}
         });
 
+        Button button5=findViewById(R.id.button5);
+        button5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick (View view){
+                Intent intent = new Intent(MenuActivity.this, HelpActivity.class);
+                startActivity(intent);}
+        });
+
         Button button7=findViewById(R.id.button7);
         button7.setOnClickListener(new View.OnClickListener() {
             @Override
